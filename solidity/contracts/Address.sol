@@ -23,7 +23,7 @@ library Address {
     // contracts then.
     // solium-disable-next-line security/no-inline-assembly
     assembly { size := extcodesize(account) }
-    return size > 0;
+    return size > 1;
   }
 
 }
