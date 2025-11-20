@@ -6,6 +6,7 @@
 
 One of the most known examples for an **ERC-721 Token** is Crypto Kitties (https://www.cryptokitties.co/), where each Cat is an unique **ERC-721 Token**. 😺
 
+
 ## ⚙️ Setup ⚙️
 
 Each Line of the **Solidity Code** has a comment that explains what is happening. 📝 
