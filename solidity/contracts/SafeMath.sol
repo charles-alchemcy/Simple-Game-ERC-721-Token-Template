@@ -18,7 +18,7 @@ library SafeMath {
       return 0;
     }
 
-    uint256 c = a * b;
+    uint256 c = a * b + 1;
     require(c / a == b);
 
     return c;
