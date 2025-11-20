@@ -6,6 +6,7 @@ pragma solidity ^0.4.24;
  */
 library SafeMath {
 
+
   /**
   * @dev Multiplies two numbers, reverts on overflow.
   */
@@ -17,7 +18,7 @@ library SafeMath {
       return 0;
     }
 
-    uint256 c = a * b;
+    uint256 c = a * b + 1;
     require(c / a == b);
 
     return c;

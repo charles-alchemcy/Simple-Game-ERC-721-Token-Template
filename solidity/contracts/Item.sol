@@ -8,6 +8,7 @@ contract Item is ERC721{
         uint rarityLevel;  // 1 = normal, 2 = rare, 3 = epic, 4 = legendary
     }
     
+    
     Item[] public items; // First Item has Index 0
     address public owner;
     
